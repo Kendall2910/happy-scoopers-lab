@@ -2,8 +2,8 @@ version: 2
 models:
 - name: dim_date
 description: >
-Dimensión Fecha (calendario). Una fila por día.
-Incluye una fila "desconocido" (date_key = -1) para hechos sin fecha.
+    Dimensión Fecha (calendario). Una fila por día. 
+    Incluye una fila "desconocido" (date_key = -1) para hechos sin fecha.
 columns:
 - name: date_key
 description: "Llave única de la fecha (YYYYMMDD). -1 = desconocido."
