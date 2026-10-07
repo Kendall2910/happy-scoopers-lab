@@ -48,11 +48,11 @@ DESTINATIONS = {
 TABLES = [
     # Esta lista crece laboratorio a laboratorio.
      "payment_types",
-     + "countries", "provinces", "cities", "addresses",
-     + "products", "product_subcategories",
+      "countries", "provinces", "cities", "addresses",
+      "products", "product_subcategories",
              "product_categories", "product_departments", "units_of_measure",
-     + "customers", "employees", "promotions",
-     + "orders", "order_lines", "package_types"
+      "customers", "employees", "promotions",
+      "orders", "order_lines", "package_types"
 ]
 
 
