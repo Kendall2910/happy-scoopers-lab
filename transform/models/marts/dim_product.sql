@@ -30,8 +30,7 @@ unknown_member as (
 select
 '-1' as product_key, -1 as product_id, 'Desconocido' as product_name,
 'N/A' as product_code, 'N/A' as product_description, null::numeric as unit_price,
-'N/A' as is_discontinued, 'N/A' as unit_of_measure_code, 'N/A' as unit_of_measure_na
-me,
+'N/A' as is_discontinued, 'N/A' as unit_of_measure_code, 'N/A' as unit_of_measure_name,
 'N/A' as subcategory_name, 'N/A' as category_name, 'N/A' as department_name
 )
 select * from final
