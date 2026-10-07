@@ -2,7 +2,7 @@
 with p as ( select * from {{ ref('stg_oltp__products') }} ),
 sub as ( select * from {{ ref('stg_oltp__product_subcategories') }} ),
 cat as ( select * from {{ ref('stg_oltp__product_categories') }} ),
-dep as ( select * from {{ ref('stg_oltp__product_departments') }} ),
+dep as ( select * from {{ ref('stg_oltp__product_departaments') }} ),
 uom as ( select * from {{ ref('stg_oltp__units_of_measure') }} ),
 joined as (
 select
