@@ -9,5 +9,6 @@ select
     country_code,
     continent,
     region,
-    subregion
+    subregion,
+    population
 from source
