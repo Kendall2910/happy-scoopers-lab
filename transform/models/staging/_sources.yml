@@ -13,3 +13,4 @@ sources:
       - name: provinces 
       - name: countries
       - name: employees
+      - name: customers
