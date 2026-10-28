@@ -42,9 +42,6 @@ models:
 
 
 
-  version: 2
-
-models:
   - name: dim_customer
     description: "Dimensión de clientes que reutiliza dim_location para direcciones de entrega y facturación."
     columns:
