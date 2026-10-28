@@ -12,8 +12,7 @@ left join loc dloc on c.delivery_address_id = dloc.address_id
 left join loc bloc on c.billing_address_id = bloc.address_id
 ),
 final as (
-select {{ dbt_utils.generate_surrogate_key(['customer_id']) }} as customer_key, * from j
-oined
+select {{ dbt_utils.generate_surrogate_key(['customer_id']) }} as customer_key, * from joined
 ),
 unknown_member as (
 select '-1' as customer_key, -1 as customer_id, 'Desconocido','N/A','N/A','N/A','N/A','N
