@@ -14,3 +14,4 @@ sources:
       - name: countries
       - name: employees
       - name: customers
+      - name: payment_types
