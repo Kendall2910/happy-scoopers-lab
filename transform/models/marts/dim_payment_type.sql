@@ -11,7 +11,7 @@ final as (
 ),
 unknown_member as (
     select 
-        -1 as payment_type_key, 
+        '-1' as payment_type_key, 
         1 as payment_type_id, 
         'N/A' as payment_type_name
 )
